@@ -1,0 +1,89 @@
+.table-container {
+    position: fixed;
+    width: 70%; /* Adjust width as per your layout */
+    top: 15%;
+    left: 25%;
+    z-index: 999;
+    /* Enable vertical scrolling */
+}
+.remarks {
+    position: relative; /* Ensure relative positioning for absolute positioning of FontAwesome icon */
+  }
+  
+  .remarks .Remarks {
+    display: inline-block; /* Ensure remarks text stays inline with the FontAwesome icon */
+    margin-right: 10%; /* Adjust spacing between remarks text and icon */
+  }
+  
+  .remarks .fa-eye {
+    position: absolute; /* Position eye icon absolutely */
+    right: 5px; /* Adjust as needed to align the icon */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+
+
+.table {
+    width: 100%; /* Ensure table takes full width of container */
+    text-align: center;
+    table-layout: fixed; /* Ensures consistent column width */
+    position: relative;
+    overflow: scroll;
+}
+textarea{
+    width: 100%;
+}
+
+.Assign-btn{
+        background-color: #5b9de3;
+        border: none;
+}
+
+
+.Button {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%; /* Adjust width as per your layout */
+    align-items: flex-end;
+}
+.Button button{
+    width: 10%;
+    height: 4%;
+    align-items: center;
+    background-color: rgb(66, 117, 135);
+    border: none;
+    
+}
+.pagination {
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin-right: 5px;
+}
+.pagination a {
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+}
+
